@@ -1,0 +1,31 @@
+{
+  "name": "bind-this",
+  "version": "1.0.0",
+  "description": "convert between data-first/last and ::",
+  "license": "MIT",
+  "repository": "stoeffel/bind-this",
+  "author": {
+    "name": "Stoeffel",
+    "email": "schtoeffel@gmail.com",
+    "url": "stoeffel.github.io"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "mocha --compilers js:babel/register"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "::",
+    "bind",
+    "es2016"
+  ],
+  "dependencies": {},
+  "devDependencies": {
+    "babel": "^5.8.20",
+    "mocha": "*"
+  }
+}
