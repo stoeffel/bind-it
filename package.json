@@ -13,7 +13,9 @@
     "node": ">=0.10.0"
   },
   "scripts": {
-    "test": "mocha --compilers js:babel/register"
+    "test": "mocha --compilers js:babel/register",
+    "transpile": "babel module/index.js > index.js",
+    "prepublish": "npm run transpile"
   },
   "files": [
     "index.js"

@@ -1,5 +1,5 @@
 import assert from 'assert';
-import { bindFirst, bindLast } from './';
+import { bindFirst, bindLast } from './module';
 
 it('should make a function bindable', () => {
 	const hasPropFirst = (data, prop) => !!data[prop];
