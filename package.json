@@ -1,6 +1,6 @@
 {
   "name": "bind-it",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "convert between data-first/last and ::",
   "license": "MIT",
   "repository": "stoeffel/bind-it",
