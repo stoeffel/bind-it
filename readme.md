@@ -1,4 +1,4 @@
-# bind-this [![Build Status](https://travis-ci.org/stoeffel/bind-this.svg?branch=master)](https://travis-ci.org/stoeffel/bind-this)
+# bind-it [![Build Status](https://travis-ci.org/stoeffel/bind-it.svg?branch=master)](https://travis-ci.org/stoeffel/bind-it)
 
 > convert between data-first/last and ::
 
@@ -8,14 +8,14 @@ This is a converter function to make a data-first and data-last function working
 ## Install
 
 ```
-$ npm install --save bind-this
+$ npm install --save bind-it
 ```
 
 
 ## Usage
 
 ```js
-import { bindFirst, bindLast } from 'bind-this';
+import { bindFirst, bindLast } from 'bind-it';
 
 const data = { id: 1, name: 'foo' };
 

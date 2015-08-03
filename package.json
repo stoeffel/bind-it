@@ -1,9 +1,9 @@
 {
-  "name": "bind-this",
+  "name": "bind-it",
   "version": "1.0.0",
   "description": "convert between data-first/last and ::",
   "license": "MIT",
-  "repository": "stoeffel/bind-this",
+  "repository": "stoeffel/bind-it",
   "author": {
     "name": "Stoeffel",
     "email": "schtoeffel@gmail.com",
